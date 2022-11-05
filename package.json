@@ -1,0 +1,25 @@
+{
+  "name": "learn__js__free_code_camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "start": "nodemon add.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shota1998/learn__js__free_code_camp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shota1998/learn__js__free_code_camp/issues"
+  },
+  "homepage": "https://github.com/shota1998/learn__js__free_code_camp#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
