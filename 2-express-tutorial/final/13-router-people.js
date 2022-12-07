@@ -2,14 +2,14 @@ const express = require('express')
 const router = express.Router()
 
 const {
-    getPoeple,
+    getPeople,
     createPerson,
     createPersonPostman,
     updatePerson,
     deletePerson
-} = require('../controllers/people')
+} = require('./15-router-controller')
 
-router.route('/').get(getPoeple).post(createPerson)
+router.route('/').get(getPeople).post(createPerson)
 router.route('/postman').post(createPersonPostman)
 router.route('/:id').put(updatePerson).delete(deletePerson)
 
